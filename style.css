@@ -28,6 +28,7 @@
     box-sizing: border-box;
     outline: none;
     cursor: none;
+    transition: 0.3s linear;
 }
 
 /* a,
@@ -111,7 +112,7 @@ header {
 
     font-weight: 700;
     font-style: Bold;
-    font-size: 96px;
+    font-size: 86px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 128px;
@@ -140,7 +141,7 @@ header {
 
     background-position:
         /*calc(50% + 0px) calc(50% - 150px),*/
-        calc(30%) calc(100%), calc(90%) calc(90%), calc(90%) calc(50% + 100px);
+        calc(42%) calc(100%), calc(90%) calc(90%), calc(90%) calc(50% + 100px);
 
 
 
@@ -268,7 +269,7 @@ header {
     transform: translate(-50%, -50%);
     z-index: 2;
     filter: blur(30px);
-
+    transition: none;
 }
 
 .cursor {
@@ -281,6 +282,7 @@ header {
     z-index: 3;
     transform: translate(-50%, -50%);
     pointer-events: none;
+    transition: none;
 
 }
 
@@ -484,7 +486,7 @@ header {
     width: 100%;
     background-image: url("./src/maediatoparrow.svg");
     background-repeat: no-repeat;
-    background-position: calc(75%) calc(50% - 780px);
+    background-position: calc(70%) calc(50% - 840px);
     overflow: hidden;
     padding-bottom: 0;
 }
@@ -535,7 +537,7 @@ header {
 
 .media__img-left {
     width: 479.99998186168614px;
-    height: 379.9999856405015px;
+    margin-bottom: 10px;
     text-align: center;
     padding: 10px;
     opacity: 1;
@@ -548,7 +550,7 @@ header {
 
 .media__img-right {
     width: 479.99998186168614px;
-    height: 379.9999856405015px;
+
     text-align: center;
     padding: 10px;
     opacity: 1;
@@ -806,10 +808,11 @@ header {
 .fais__bottom {
     background-image: url("./src/fais-bottom-arrow.svg"), url("./src/fais-bottom-wheel.svg");
     background-repeat: no-repeat;
-    background-position: calc(20%) calc(50%), calc(26%) calc(90%);
+    background-position: calc(20%) calc(40%), calc(26%) calc(70%);
     display: flex;
     justify-content: end;
-    padding: 180px;
+    padding: 200px;
+    padding-bottom: 400px;
 }
 
 .fais__bottom-txt {
@@ -916,7 +919,7 @@ header {
 .santader__box {
     background: #282828;
     width: 580px;
-    height: 88px;
+
     color: #fff;
     opacity: 1;
     gap: 10px;
@@ -934,13 +937,15 @@ header {
 .santader__bottom {
     background-image: url(./src/santader-bottom-arrow.svg), url(./src/santader-bottom-smile.svg);
     background-repeat: no-repeat;
-    background-position: calc(40%) calc(50%), calc(22%) calc(85%);
+    background-position: calc(40%) calc(-80%), calc(22%) calc(85%);
     padding: 200px;
     display: flex;
     width: 100%;
     justify-content: end;
-    height: 480px;
+    padding-top: 100px;
     align-items: center;
+    padding-bottom: 300px;
+    padding-right: 20px;
 }
 
 .santader__bottom-txt {
@@ -963,7 +968,7 @@ header {
     z-index: 1;
     background-image: url("./src/sura-arrow.svg");
     background-repeat: no-repeat;
-    background-position: calc(50% + 50px) calc(50% + 450px);
+    background-position: calc(50% + 150px) calc(50% + 450px);
     padding-left: 60px;
 
 }
@@ -982,7 +987,7 @@ header {
     height: 100%;
     background-image: url("./src/sura-bottom-arrow-me.svg");
     background-repeat: no-repeat;
-    background-position: calc(50% - 275px) calc(50% + 670px);
+    background-position: calc(50% - 275px) calc(50% + 550px);
     z-index: 1;
 
 }
@@ -991,6 +996,7 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 60px;
+    align-items: center;
 }
 
 .sura__title {
@@ -1097,7 +1103,7 @@ header {
 }
 
 .sura__bottom-text {
-    width: max-content;
+    width: 300px;
     font-family: var(--nanum-pen);
     font-weight: 400;
     font-size: 40px;
@@ -1106,7 +1112,7 @@ header {
     -webkit-text-fill-color: transparent;
     line-height: 40px;
     letter-spacing: 0px;
-    text-align: center;
+    
     vertical-align: middle;
     text-transform: uppercase;
     position: relative;

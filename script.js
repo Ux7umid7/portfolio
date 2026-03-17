@@ -152,9 +152,9 @@ document.addEventListener("mousemove", function (e) {
 
 //
 let text = [
-  "Frontend Dev.",
-  "Robot Builder",
-  "Coder"
+  "Frontend Dasturchi",
+  "Web dizayner",
+  "Backend dasturchi"
 ]
 
 let index = 0
