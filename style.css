@@ -31,10 +31,7 @@
     transition: 0.3s linear;
 }
 
-/* a,
-button {
-    cursor: pointer;
-} */
+
 
 ul {
     list-style: none;
@@ -1112,7 +1109,7 @@ header {
     -webkit-text-fill-color: transparent;
     line-height: 40px;
     letter-spacing: 0px;
-    
+
     vertical-align: middle;
     text-transform: uppercase;
     position: relative;
