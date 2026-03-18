@@ -153,7 +153,7 @@ document.addEventListener("mousemove", function (e) {
 //
 let text = [
   "Frontend Dasturchi",
-  "Web dizayner",
+  "Web dasturchi",
   "Backend dasturchi"
 ]
 
