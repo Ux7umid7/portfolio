@@ -98,6 +98,7 @@ header {
     padding: 10px 20px;
 }
 
+
 .about__wrapper {
     text-align: center;
 
@@ -975,11 +976,11 @@ header {
 }
 
 
-.sura::before {
-    content: "";
-    position: absolute;
+.sura {
+    /* content: ""; */
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     height: 100%;
     background-image: url("./src/sura-bottom-arrow-me.svg");
@@ -994,6 +995,7 @@ header {
     justify-content: space-between;
     gap: 60px;
     align-items: center;
+
 }
 
 .sura__title {
@@ -1008,7 +1010,9 @@ header {
     letter-spacing: 0%;
 
 }
-
+.online__link{
+    z-index: 2;
+}
 .sura__date {
     font-family: var(--sans);
     font-weight: 700;
