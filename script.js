@@ -92,11 +92,11 @@ let observer = new IntersectionObserver((entries) => {
       }
 
       else if (entry.target.classList.contains("js")) {
-        entry.target.style.width = "75%"
+        entry.target.style.width = "90%"
       }
 
       else if (entry.target.classList.contains("git")) {
-        entry.target.style.width = "70%"
+        entry.target.style.width = "80%"
       }
 
     }
