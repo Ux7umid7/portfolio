@@ -339,7 +339,13 @@ header {
 
 
 }
-
+.fais__bottom-teachers{
+    display: flex;
+    gap: 40px;
+}
+.fais__bottom-teachers .media__img-right{
+    transform: rotate(5deg);
+}
 .school::before {
     content: "";
     position: absolute;
